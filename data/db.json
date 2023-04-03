@@ -1,0 +1,25 @@
+{
+  "tasks": [
+    {
+      "id": 1,
+      "title": "play gloomhaven",
+      "isFav": true
+    },
+    {
+      "title": "eat some pinapples",
+      "isFav": true,
+      "id": 4
+    },
+    {
+      "title": "david",
+      "isFave": false,
+      "id": 7130,
+      "isFav": true
+    },
+    {
+      "title": "lean vue js",
+      "isFave": false,
+      "id": 4702
+    }
+  ]
+}

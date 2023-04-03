@@ -1,0 +1,22 @@
+{
+  "name": "side-bar",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "add": "^2.0.6",
+    "pinia": "^2.0.33",
+    "sass": "^1.60.0",
+    "vue": "^3.2.47",
+    "vue-router": "^4.1.6"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.1.0",
+    "vite": "^4.2.0"
+  }
+}
