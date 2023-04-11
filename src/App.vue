@@ -12,11 +12,14 @@ import Sidebar from "./components/Sidebar.vue";
  
     <Sidebar />
     <router-view />
+
+    <div class="text-blue-500 "> hello tailwind css</div>
     
     
     
   </div>
 </template>
+<style src="./assets/tailwind.css"></style>
 
 <style  lang="scss" >
 :root{
