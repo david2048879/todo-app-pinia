@@ -1,11 +1,12 @@
 <template>
-    <form @submit.prevent="handleSubmit">
+    <form class="ml-40 mt-40" @submit.prevent="handleSubmit">
         <input 
+        class="border-0 p-2 rounded text-gray-500 text-center m-30"
         type="text"
         placeholder="I need to......"
         v-model="newTask"
         >
-        <button>Add</button>
+        <button class="bg-yellow-400 p-2 border-0 rounded-4xl">Add</button>
 
     </form>
 </template>

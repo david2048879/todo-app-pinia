@@ -17,7 +17,7 @@
         <TaskDetails :task="task"/>
       </div>
       </div> -->
-      <div class="task-list" >
+      <div class="task-list max-w-3xl m-6" >
         <p>you have {{ taskStore.favCount }} favoriate task</p>
       <div  v-for="task in taskStore.favs " :key="task.id">
         <TaskDetails :task="task"/>

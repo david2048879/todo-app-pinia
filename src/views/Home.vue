@@ -31,22 +31,22 @@ export default{
       </div>
 
  <!-- Filter -->
- <nav class="filter">
-      <button @click="filter ='all'">all task</button>
+ <!-- <nav class="filter w-10 m-auto text-right">
+      <button class="inline-block ml-2 text-blue-50 border rounded pt-2 pr-4 cursor-pointer text-1xl " @click="filter ='all'">all task</button>
       <button @click="filter ='favs'">favorites task</button>
-    </nav>
+    </nav> -->
 
     <!-- ----------------LOADING------------------ -->
 
     <!-- <div class="loading" v-if="taskStore.loading">Loading tasks....................</div> -->
 
-    <div class="task-list" v-if="filter === 'all'">
+    <div class="task-list max-w-3xl m-6" v-if="filter === 'all'">
         <p>you have {{ taskStore.totalCount }} tasks left to do</p>
     <div  v-for="task in taskStore.tasks " :key="task.id">
       <TaskDetails :task="task"/>
     </div>
     </div>
-    <div class="task-list" v-if="filter ==='favs'">
+    <div class="task-list max-w-3xl m-6" v-if="filter ==='favs'">
       <p>you have {{ taskStore.favCount }} favoriate task</p>
     <div  v-for="task in taskStore.favs " :key="task.id">
       <TaskDetails :task="task"/>
